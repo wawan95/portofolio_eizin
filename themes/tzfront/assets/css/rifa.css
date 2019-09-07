@@ -1,0 +1,375 @@
+/*halaman login*/
+
+body#bg-login {
+	height: 100vh;
+	background: #2b2b2b;
+	/*background-image: url(../images/bg.jpg);*/
+	background-image: url(../images/warehousebw.jpg);
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.box-login {
+	background-color: rgba(29,29,29,.75);
+	padding: 20px;
+	/* border: 20px solid rgba(255,255,255, 0.55); */
+	box-shadow: 0 0 0 20px rgba(255,255,255, 0.95);
+}
+
+
+.box-login h3, .h3 {
+	font-family: "Cabin", sans-serif;
+	font-size: 26px;
+}
+
+.box-login h1, h2, h3 {
+	margin-top: 10px;
+	margin-bottom: 28px;
+}
+
+.box-login img {
+	vertical-align: middle;
+	margin-bottom: 20px;
+	width: 40%;
+}
+
+.btn-link {
+	color: #f0f0f0;
+}
+
+.btn-link:hover, .btn-link:focus {
+	color: #FFCB05;
+	text-decoration: underline;
+	background-color: transparent;
+}
+
+/*end of halaman login*/
+
+
+
+/*halaman dashboard*/
+
+body {
+	background: #2b2b2b;
+	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+.navbar-default.sidebar {
+	background-color: #e4b83d;
+	color: #2b2b2b;
+}
+
+.navbar.navbar-default .brand {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	font-weight: 900;
+	font-size: 23px;
+	font-style: italic;
+	color: white;
+	letter-spacing: 1px;
+	text-shadow: none;
+	width: 250px;
+	position: relative;
+	padding-left: 50px;
+	background-color: #2b2b2b;
+	padding-bottom: 40px; 
+}
+
+.navbar.navbar-default .brand .logo {
+	position: absolute;
+	top: 5px;
+	left: 15px;
+	width: 215px;
+}
+
+.navbar.navbar-default {
+	background-color: #4e3f3a;
+	border-color: #4e3f3a;
+}
+
+#side-menu li > a {
+	color: #2b2b2b;
+}
+
+#side-menu li > a:hover, #side-menu li > a:focus {
+	background-color: #bd872d;
+	color: white;
+}
+
+#side-menu li.active > a {
+	background-color: #4E3F3A;
+	color: #efca7a;
+	font-weight: 700;
+}
+
+#sidebar-toggle {
+	color: white;
+	text-shadow: none;
+	font-size: 30px;
+}
+
+#page-wrapper {
+	background-color: #decaa9;
+	border-left: none;
+}
+
+.page-header {
+	border-bottom-color: #2b2b2b;
+}
+
+.panel-default {
+	border-color: #cdcdcd;
+}
+
+.panel-default > .panel-heading {
+	color: #4e3f3a;
+	background-color: #fbf0cd;
+	border-color: #fbf0cd;
+}
+
+.panel {
+	margin-bottom: 20px;
+	background-color: #ffffe5;
+	border: 1px solid transparent;
+	border-radius: 4px;
+	-webkit-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	-moz-box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+	box-shadow: 0 1px 1px rgba(0, 0, 0, 0.05);
+}
+
+.panel-footer {
+	padding: 10px 15px;
+	background-color: #FFFFE5;
+}
+
+.panel-primary > .panel-heading {
+	color: #FFFFE5;
+	background-color: #3F729E;
+	border-color: #3F729E;
+}
+
+.panel-primary {
+	border-color: #3F729E;
+}
+
+.panel.panel-primary a {
+	color: #3F729E;
+	text-decoration: none;
+}
+
+.panel-primary a:hover {
+	color: #314A61;
+}
+
+.panel-green {
+	border-color: #578B57;
+}
+
+.panel-green .panel-heading {
+	border-color: #578B57;
+	color: #FFFFE5;
+	background-color: #578B57;
+}
+
+.panel-green a {
+	color: #578B57;
+}
+
+.panel-green a:hover {
+	color: #4A714A;
+}
+
+.panel-yellow {
+	border-color: #CF9B52;
+}
+
+.panel-yellow .panel-heading {
+	border-color: #CF9B52;
+	color: #FFFFE5;
+	background-color: #CF9B52;
+}
+
+.panel-yellow a {
+	color: #CF9B52;
+}
+
+.panel-yellow a:hover {
+	color: #B88D4F;
+}
+
+.panel-red {
+	border-color: #B34C49;
+}
+
+.panel-red .panel-heading {
+	border-color: #B34C49;
+	color: #FFFFE5;
+	background-color: #B34C49;
+}
+
+.panel-red a {
+	color: #B34C49;
+}
+
+.panel-red a:hover {
+	color: #8E4543;
+}
+
+
+/*table*/
+
+.table-bordered, .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border-color: #4E3F3A;
+}
+
+.table > thead > tr > th, .table > tbody > tr > th, .table > tfoot > tr > th {
+	background-color: #79625B;
+	color: white;
+}
+
+.table-bordered, .table-bordered > thead > tr > th, .table-bordered > tbody > tr > th, .table-bordered > tfoot > tr > th, .table-bordered > thead > tr > td, .table-bordered > tbody > tr > td, .table-bordered > tfoot > tr > td {
+	border-color: #2b2b2b;
+}
+
+table.dataTable thead .sorting, table.dataTable thead .sorting_asc, table.dataTable thead .sorting_desc, table.dataTable thead .sorting_asc_disabled, table.dataTable thead .sorting_desc_disabled {
+	background: #79625B;
+}
+
+table.dataTable thead .sorting:after {
+	content: "\f0dc";
+	float: right;
+	font-family: fontawesome;
+	color: rgba(228, 184, 61, 1);
+}
+
+table.dataTable thead .sorting_asc:after {
+	content: "\f0de";
+	float: right;
+	font-family: fontawesome;
+	color: rgb(228, 184, 61);
+}
+
+table.dataTable thead .sorting:after {
+content: "\f0dc";
+float: right;
+font-family: fontawesome;
+color: rgba(255, 255, 255, 1);
+}
+
+/*end of table*/
+
+
+/*notification*/
+
+.modal {
+	background-color: #ffffe5;
+}
+
+.modal-body {
+	background-color: #FFFFE5;
+}
+
+.modal-footer {
+	background-color: #FBF0CD;
+}
+
+element.style {
+	top: 757px;
+	left: 508.703125px;
+	display: block;
+	background-color: #FCF6E2;
+}
+
+/*end of notification*/
+
+
+
+/*Panels and Wells*/
+
+.panel.panel-success {
+	border: 1px solid rgb(124, 212, 121);
+}
+.panel-success > .panel-heading {
+	color: #333333;
+	background-color: #7cd479;
+	border-color: #7CD479;
+}
+
+.panel.panel-info {
+	border: 1px solid #75C9FB;
+}
+.panel-info > .panel-heading {
+	color: #333333;
+	background-color: #75c9fb;
+	border-color: #75C9FB;
+}
+
+.panel.panel-warning {
+	border: 1px solid rgb(246, 201, 151);
+}
+.panel-warning > .panel-heading {
+	color: #333333;
+	background-color: #f6c997;
+	border-color: #F6C997;
+}
+
+.panel.panel-danger {
+	border: 1px solid rgb(241, 136, 135);
+}
+.panel-danger > .panel-heading {
+	color: #333333;
+	background-color: #f18887;
+	border-color: #F18887;
+}
+
+.nav-pills > .active > a, .nav-pills > .active > a:hover, .nav-pills > .active > a:focus {
+	color: #ffffff;
+	background-color: #4E3F3A;
+}
+
+.nav > li > a:hover, .nav > li > a:focus {
+	text-decoration: none;
+	background-color: #E4B83D;
+}
+
+a:hover, a:focus {
+	color: #4E3F3A;
+	text-decoration: underline;
+}
+
+.nav-tabs {
+	border-bottom: 1px solid #2B2B2B;
+}
+
+.nav-tabs > .active > a, .nav-tabs > .active > a:hover, .nav-tabs > .active > a:focus {
+	color: #555555;
+	background-color: #FBF0CD;
+	border: 1px solid #2B2B2B;
+	border-bottom-color: transparent;
+	cursor: default;
+}
+
+.nav-tabs > li > a:hover, .nav-tabs > li > a:focus {
+	border-color: transparent transparent #4E3F3A;
+}
+
+.well {
+	background-color: #FFFFE5;
+	border: 1px solid #FFFFE5;
+}
+
+/*end of Panels and Wells*/
+
+
+/*grid*/
+
+.table-striped tbody > tr:nth-child(odd) > td, .table-striped tbody > tr:nth-child(odd) > th {
+	background-color: #EDE5E3;
+}
+
+/*end of grid*/
+
+
+
+/*end of halaman dashboard*/

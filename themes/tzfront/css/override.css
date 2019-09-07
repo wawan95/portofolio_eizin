@@ -1,0 +1,36 @@
+#sidebar-toggle {
+  position: absolute;
+  top: 0px;
+  right: -30px;
+  z-index: 2;
+  padding: 3px 5px 0 0;
+  margin: 0;
+  font-size: 20px;
+  width: 30px;
+  height: 30px;
+  text-align: center;
+}
+#sidebar-toggle:hover {
+  cursor: pointer;
+}
+.sidebar {
+  left: 0;
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+.sidebar.sidebar-hide {
+  left: -250px;
+}
+#page-wrapper {
+  -webkit-transition: all .25s ease;
+  -moz-transition: all .25s ease;
+  -ms-transition: all .25s ease;
+  -o-transition: all .25s ease;
+  transition: all .25s ease;
+}
+#page-wrapper.sidebar-hidden {
+  margin-left: 0;
+}
