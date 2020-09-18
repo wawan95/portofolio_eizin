@@ -1,0 +1,7 @@
+admin
+administrator
+password
+
+user
+Sugeng Kurniawan
+password01
